@@ -9,7 +9,7 @@ Execute `yarn dev` to run the project.
 Please create the following features using JavaScript (vanilla).
 
 
-> ![Todo List Wireframe](wireframe.png)
+![Todo List Wireframe](./src/assets/wireframe.png)
 
 
 1. Load todo list.
@@ -22,3 +22,9 @@ API endpoints: [https://dummyjson.com/docs/todos](https://dummyjson.com/docs/tod
 All actions should have clear feedbacks and error handling.
 
 Use `axios` to handle http requests. Or choose whatever packages you feel comfortable with.
+
+## Steps
+
+Go to [https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js](https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js)
+
+![Github](./src/assets/github-guide.png)
