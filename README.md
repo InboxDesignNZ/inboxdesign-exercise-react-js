@@ -30,6 +30,8 @@ Please create the following features using Javascript.
 
 - Use `axios` to handle http requests. Or choose whatever packages you feel comfortable with.
 
+- `Bootstrap@5.3.x` is included in the HTML. Feel free to use any front-end frameworks that you feel comfortable with.
+
 
 
 ## How to start? 
@@ -43,3 +45,5 @@ Please create the following features using Javascript.
 2. We have initiated the project using `vite` and tested running on our dev environments. Please make sure that `node@20.19.x` and `yarn` are installed.
 
 3. Execute `yarn` to install dependencies. Execute `yarn dev` to run the project.
+
+>  Before you start coding, you can spend your time to setup the dev environment and get prepared. Once you start coding, you should finish it within **⏳ 1.5 hours**.
