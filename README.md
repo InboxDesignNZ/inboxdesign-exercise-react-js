@@ -1,30 +1,45 @@
 # InboxDesign Exercise Project
 
-This project requires `node@20.19.x`, `yarn`.
-
-Execute `yarn dev` to run the project.
-
-## Requirements
-
-Please create the following features using JavaScript (vanilla).
-
+Please create the following features using Javascript.
 
 ![Todo List Wireframe](./src/assets/wireframe.png)
 
 
-1. Load todo list.
+## Backend
+
+  Use the dummy API. [https://dummyjson.com/docs/todos#todos-user](https://dummyjson.com/docs/todos#todos-user)
+
+
+## Frontend
+1. Load the todo list 
+
+   Use user id `1` to load data. `https://dummyjson.com/todos/user/1`
+
 2. Add items.
+
 3. Complete items.
-3. Delete items.
 
-API endpoints: [https://dummyjson.com/docs/todos](https://dummyjson.com/docs/todos)
+4. Delete items.
 
-All actions should have clear feedbacks and error handling.
 
-Use `axios` to handle http requests. Or choose whatever packages you feel comfortable with.
+## Notes
 
-## Steps
+- All read, delete, update requests will not affect the server data. Use the state management to simulate the results.
 
-Go to [https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js](https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js)
+- All actions should have clear feedbacks and error handling.
 
-![Github](./src/assets/github-guide.png)
+- Use `axios` to handle http requests. Or choose whatever packages you feel comfortable with.
+
+
+
+## How to start? 
+
+1. Go to [https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js](https://github.com/InboxDesignNZ/inboxdesign-exercise-react-js). Create a new repository in your Github account.
+
+    ![Github](./src/assets/github-guide.png)
+
+1. Clone your repository to your computer.
+
+2. We have initiated the project using `vite` and tested running on our dev environments. Please make sure that `node@20.19.x` and `yarn` are installed.
+
+3. Execute `yarn` to install dependencies. Execute `yarn dev` to run the project.
